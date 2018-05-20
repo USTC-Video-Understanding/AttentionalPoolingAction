@@ -19,8 +19,8 @@ Rohit Girdhar and Deva Ramanan. **Attentional Pooling for Action Recognition**. 
 
 This code was trained and tested with
 
-1. CentOS 6.5
-2. Python 2.7
+1. Ubuntu 16.04
+2. Python 3.5
 3. TensorFlow 1.1.0-rc2 ([6a1825e2](https://github.com/tensorflow/tensorflow/tree/6a1825e2369d2537e15dc585705c53c4b763f3f6))
 
 ## Getting started
