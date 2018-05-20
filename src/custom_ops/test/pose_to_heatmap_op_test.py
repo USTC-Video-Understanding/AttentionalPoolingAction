@@ -24,7 +24,7 @@ with tf.Session(''):
   A = T.eval()
   A_valid = T_valid.eval()
   plt.imsave('temp.jpg', np.mean(A, axis=-1))
-  print A_valid
+  print(A_valid)
   import pdb
   pdb.set_trace()
   a = 1

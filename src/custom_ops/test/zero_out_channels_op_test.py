@@ -10,7 +10,7 @@ with tf.Session(''):
   A = np.ones((1, 3, 3, 5))
   channels = [True, False, True, True, True]
   B = zero_out_channels(A, channels)
-  print B
+  print(B)
   C = B.eval()
   assert(np.all(C[:, :, :, 0] == 1))
   assert(np.all(C[:, :, :, 1] == 0))
